@@ -15,7 +15,8 @@ describe SrtReader do
 
     it "should open SRT file and import content to array" do
       File.stub(:open).with("file_name","r") { StringIO.new(data) }
-      srt_reader.import_srt_content("file_name").should eq(result)
+      srt_reader.import_srt_content("file_name")
+      srt_reader.srt_sub_title_lines.should eq(result)
     end
 
   end

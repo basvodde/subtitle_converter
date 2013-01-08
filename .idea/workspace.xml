@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="srt_reader_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="srt_reader_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/srt_reader_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="36" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
+            <state line="8" column="44" selection-start="295" selection-end="295" vertical-scroll-proportion="0.16997167">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="srt_reader.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="srt_reader.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/srt_reader.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="60" selection-start="319" selection-end="319" vertical-scroll-proportion="0.21246459">
+            <state line="12" column="4" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -275,16 +275,16 @@
         <state line="17" column="25" selection-start="763" selection-end="763" vertical-scroll-proportion="0.45535713" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/srt_reader_spec.rb">
+    <entry file="file://$PROJECT_DIR$/lib/srt_reader.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="36" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
+        <state line="12" column="4" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/srt_reader.rb">
+    <entry file="file://$PROJECT_DIR$/spec/srt_reader_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="60" selection-start="319" selection-end="319" vertical-scroll-proportion="0.21246459">
+        <state line="8" column="44" selection-start="295" selection-end="295" vertical-scroll-proportion="0.16997167">
           <folding />
         </state>
       </provider>
