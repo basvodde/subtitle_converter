@@ -9,6 +9,7 @@ class SrtReader
     parse_srt_content(file)
   end
 
+  private
   def parse_srt_content(file)
     file.each do |line|
       if line =~ /\d{2}(:[0-5]\d){3}\t,\t\d{2}(:[0-5]\d){3}\t,\t.*/

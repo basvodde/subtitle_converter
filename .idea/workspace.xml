@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="158b8397-a112-4c8e-b7b7-316037f6f0e7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/srt_reader.rb" afterPath="$PROJECT_DIR$/lib/srt_reader.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/srt_reader_spec.rb" afterPath="$PROJECT_DIR$/spec/srt_reader_spec.rb" />
@@ -23,19 +24,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="srt_reader_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="srt_reader_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/srt_reader_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="44" selection-start="295" selection-end="295" vertical-scroll-proportion="0.16997167">
+            <state line="13" column="30" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="srt_reader.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="srt_reader.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/srt_reader.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="4" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+            <state line="13" column="22" selection-start="270" selection-end="274" vertical-scroll-proportion="0.27620396">
               <folding />
             </state>
           </provider>
@@ -50,8 +51,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/spec/srt_reader_spec.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/lib/srt_reader.rb" />
+        <option value="$PROJECT_DIR$/spec/srt_reader_spec.rb" />
       </list>
     </option>
   </component>
@@ -275,16 +277,23 @@
         <state line="17" column="25" selection-start="763" selection-end="763" vertical-scroll-proportion="0.45535713" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/srt_reader.rb">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="4" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+        <state line="20" column="22" selection-start="175" selection-end="175" vertical-scroll-proportion="0.42492917">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/srt_reader_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="44" selection-start="295" selection-end="295" vertical-scroll-proportion="0.16997167">
+        <state line="13" column="30" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/srt_reader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="22" selection-start="270" selection-end="274" vertical-scroll-proportion="0.27620396">
           <folding />
         </state>
       </provider>

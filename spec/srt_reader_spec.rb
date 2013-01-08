@@ -2,7 +2,7 @@ require	'spec_helper'
 require	'srt_reader'
 
 describe SrtReader do
-  context "read stl file and read it content into memory" do
+  describe "read stl file and read it content into memory" do
     let(:srt_reader) { SrtReader.new }
     let(:data)    {
       "00:00:03:15\t,\t00:00:05:26\t,\tTonight, The Deep Dive.\r
