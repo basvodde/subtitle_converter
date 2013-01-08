@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/srt_reader.rb" afterPath="$PROJECT_DIR$/lib/srt_reader.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/srt_reader_spec.rb" afterPath="$PROJECT_DIR$/spec/srt_reader_spec.rb" />
     </list>
     <ignored path="subtitle_converter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,10 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="srt_reader.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="srt_reader.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/srt_reader.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="22" selection-start="270" selection-end="274" vertical-scroll-proportion="0.27620396">
+            <state line="19" column="52" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="29" selection-start="176" selection-end="176" vertical-scroll-proportion="0.42492917">
               <folding />
             </state>
           </provider>
@@ -51,9 +59,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/lib/srt_reader.rb" />
         <option value="$PROJECT_DIR$/spec/srt_reader_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/srt_reader.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -277,13 +285,6 @@
         <state line="17" column="25" selection-start="763" selection-end="763" vertical-scroll-proportion="0.45535713" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="22" selection-start="175" selection-end="175" vertical-scroll-proportion="0.42492917">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/srt_reader_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="30" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
@@ -293,7 +294,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/srt_reader.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="270" selection-end="274" vertical-scroll-proportion="0.27620396">
+        <state line="19" column="52" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="29" selection-start="176" selection-end="176" vertical-scroll-proportion="0.42492917">
           <folding />
         </state>
       </provider>
