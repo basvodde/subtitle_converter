@@ -13,9 +13,9 @@ describe SrtReader do
       "00:00:03:15#00:00:05:26#Tonight, The Deep Dive.","00:00:05:27#00:00:10:01#One company's secret weapon for innovation"
     ]}
 
-    it "should open STL file" do
+    it "should open SRT file and import content to array" do
       File.stub(:open).with("file_name","r") { StringIO.new(data) }
-      srt_reader.import("file_name").should eq(result)
+      srt_reader.import_srt_content("file_name").should eq(result)
     end
 
   end
