@@ -8,7 +8,7 @@ class SubRibWriter
   def parse_stl_lines(stl_sub_title_lines)
     stl_sub_title_lines.to_enum.with_index(1) do |line, line_number|
       start_time, end_time, text_of_subtitle = line.split("#")
-     @subrib_sub_title_lines.push("#{line_number}\r#{re_format(start_time)}\t-->\t#{re_format(end_time)}\r#{text_of_subtitle}\r")
+      @subrib_sub_title_lines.push("#{line_number}\r#{re_format(start_time)}\t-->\t#{re_format(end_time)}\r#{text_of_subtitle}\r")
     end
   end
 
