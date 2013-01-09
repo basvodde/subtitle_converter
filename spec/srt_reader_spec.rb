@@ -1,9 +1,9 @@
 require	'spec_helper'
 require	'srt_reader'
 
-describe SrtReader do
+describe STLReader do
   describe "read stl file and read it content into memory" do
-    let(:srt_reader) { SrtReader.new }
+    let(:stl_reader) { STLReader.new }
     let(:data)    {
       "00:00:03:15\t,\t00:00:05:26\t,\tTonight, The Deep Dive.\r
        00:00:05:27\t,\t00:00:10:01\t,\tOne company's secret weapon for innovation"
@@ -13,15 +13,15 @@ describe SrtReader do
       "00:00:03:15#00:00:05:26#Tonight, The Deep Dive.","00:00:05:27#00:00:10:01#One company's secret weapon for innovation"
     ]}
 
-    it "should open SRT file and import content to 'srt_sub_title_lines'" do
+    it "should open STL file and import content to 'srt_sub_title_lines'" do
       File.stub(:open).with("file_name","r") { StringIO.new(data) }
-      srt_reader.import_srt_content("file_name")
-      srt_reader.srt_sub_title_lines.should eq(result)
+      stl_reader.import_stl_content("file_name")
+      stl_reader.stl_sub_title_lines.should eq(result)
     end
 
     it "should inform 'file not found' in case target file doesn't exist" do
-      srt_reader.should_receive(:puts).with("File not found")
-      srt_reader.import_srt_content("not_existing_file")
+      stl_reader.should_receive(:puts).with("File not found")
+      stl_reader.import_stl_content("not_existing_file")
     end
   end
 end

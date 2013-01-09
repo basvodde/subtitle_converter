@@ -1,13 +1,14 @@
-class SrtReader
-  attr_reader :srt_sub_title_lines
+class STLReader
+  attr_reader :stl_sub_title_lines
   def initialize
-    @srt_sub_title_lines = []
+    @stl_sub_title_lines = []
   end
 
-  def import_srt_content(file_name)
+  def import_stl_content(file_name)
     begin
       file =File.open(file_name, "r")
       parse_srt_content(file)
+      file.close
     rescue SystemCallError
       puts "File not found"
     end
@@ -15,7 +16,7 @@ class SrtReader
 
   private
   def parse_srt_content(file)
-    @srt_sub_title_lines = file.select{|line|
+    @stl_sub_title_lines = file.select{|line|
       line =~ /\d{2}(:[0-5]\d){3}\t,\t\d{2}(:[0-5]\d){3}\t,\t.*/
     }.map{|line|
       line.split("\t,\t").map(&:strip).join("#")
