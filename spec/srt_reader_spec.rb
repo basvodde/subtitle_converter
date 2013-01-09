@@ -13,11 +13,15 @@ describe SrtReader do
       "00:00:03:15#00:00:05:26#Tonight, The Deep Dive.","00:00:05:27#00:00:10:01#One company's secret weapon for innovation"
     ]}
 
-    it "should open SRT file and import content to array" do
+    it "should open SRT file and import content to 'srt_sub_title_lines'" do
       File.stub(:open).with("file_name","r") { StringIO.new(data) }
       srt_reader.import_srt_content("file_name")
       srt_reader.srt_sub_title_lines.should eq(result)
     end
 
+    it "should inform 'file not found' in case target file doesn't exist" do
+      srt_reader.should_receive(:puts).with("File not found")
+      srt_reader.import_srt_content("not_existing_file")
+    end
   end
 end

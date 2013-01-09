@@ -5,8 +5,12 @@ class SrtReader
   end
 
   def import_srt_content(file_name)
-    file =File.open(file_name, "r")
-    parse_srt_content(file)
+    begin
+      file =File.open(file_name, "r")
+      parse_srt_content(file)
+    rescue SystemCallError
+      puts "File not found"
+    end
   end
 
   private
