@@ -7,7 +7,7 @@ class SubRibWriter
 
   def parse_stl_lines(stl_sub_title_lines)
     subtitle_number = 1
-    stl_sub_title_lines.each do |line|
+    stl_sub_title_lines.each_with_index do |line|
       start_time, end_time, text_of_subtitle = line.split("#")
       @subrib_sub_title_lines.push("#{subtitle_number}\r#{re_format(start_time)}\t-->\t#{re_format(end_time)}\r#{text_of_subtitle}\r")
       subtitle_number = subtitle_number+1
@@ -15,10 +15,10 @@ class SubRibWriter
   end
 
   def re_format(hh_mm_ss_fps)
-    hh_mm_ss_fps.sub(/(...)$/){|fps| ","+convert_fps_to_millisec(fps)}
+    hh_mm_ss_fps.sub(/(...)$/){|fps| ","+convert_fps_to_millisec(fps[1,2])}
   end
 
   def convert_fps_to_millisec(frames_per_sec)
-    ((33*frames_per_sec[1,2].to_i).to_s).rjust(3, "0")
+    ((33*frames_per_sec.to_i).to_s).rjust(3, "0")
   end
 end
