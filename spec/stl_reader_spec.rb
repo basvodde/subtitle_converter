@@ -1,5 +1,5 @@
 require	'spec_helper'
-require	'srt_reader'
+require	'stl_reader'
 
 describe STLReader do
   describe "read stl file and read it content into memory" do
