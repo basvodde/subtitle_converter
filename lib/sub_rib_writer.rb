@@ -22,9 +22,9 @@ class SubRibWriter
   end
 
   def to_file(filename)
-    File.new filename, "a" do |file|
+    file = File.open filename, "w" do |file|
       subrib_sub_title_lines.each do |line|
-        file.puts("line")
+        file.puts line
       end
     end
   end
