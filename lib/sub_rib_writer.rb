@@ -20,4 +20,12 @@ class SubRibWriter
     milliseconds = 33*frames_per_sec.to_i
     milliseconds.to_s.rjust(3, "0")
   end
+
+  def to_file(filename)
+    File.new filename, "a" do |file|
+      subrib_sub_title_lines.each do |line|
+        file.puts("line")
+      end
+    end
+  end
 end

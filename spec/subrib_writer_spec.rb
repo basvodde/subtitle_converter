@@ -12,6 +12,10 @@ describe SubRibWriter do
       "2\r00:00:05,891\t-->\t00:00:10,033\rOne company's secret weapon for innovation\r"
   ]}
 
+  let(:expect_file_content)  {
+      "1\r00:00:03,495\t-->\t00:00:05,858\rTonight, The Deep Dive.\r"+
+      "2\r00:00:05,891\t-->\t00:00:10,033\rOne company's secret weapon for innovation\r"
+  }
   describe "convert_fps_to_millisecond" do
     it "should convert fps to millisec" do
       subrib_writer.convert_fps_to_millisec("15").should eq("495")
@@ -34,6 +38,17 @@ describe SubRibWriter do
     it "should parse stl lines into 'subrib_sub_title_line'" do
       subrib_writer.parse_stl_lines(stl_sub_title_lines)
       subrib_writer.subrib_sub_title_lines.should eq(result)
+    end
+  end
+
+  describe "write_to_file" do
+    it "should create file 'subrib_subtitle.srt' all data in subrib_sub_title_lines in" do
+      file = mock("filename")
+      File.should_receive(:new).with("filename", "a").and_yield(file)
+      file.should_receive(:puts).at_least(:twice)
+
+      subrib_writer.parse_stl_lines(stl_sub_title_lines)
+      subrib_writer.to_file("filename")
     end
   end
 
