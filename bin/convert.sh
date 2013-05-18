@@ -1,4 +1,4 @@
-#!/Users/roofimon/.rvm/rubies/ruby-1.9.3-p327/bin/ruby
+#!/usr/bin/env ruby -w
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'stl_reader'
 require 'sub_rib_writer'
