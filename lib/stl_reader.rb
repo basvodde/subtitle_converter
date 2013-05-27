@@ -21,6 +21,8 @@ class STLReader
     @stl_sub_title_lines = file.select{|line|
       line =~ /\d{2}(:[0-5]\d){3}\s+,\s+\d{2}(:[0-5]\d){3}\s+,\s+.*/
     }.map{|line|
+      line.gsub!(", \t", ",\t")
+      line.gsub!("\t ,", "\t,")
       line.split("\t,\t").map(&:strip).join("#")
     }
   end
