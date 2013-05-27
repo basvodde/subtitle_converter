@@ -1,0 +1,180 @@
+1
+00:00:04,825 --> 00:00:09,528
+I have a problem, I can't get access to the error database at a consistent rate
+
+2
+00:00:09,561 --> 00:00:10,825
+Oh, that is not an impediment
+
+3
+00:00:10,858 --> 00:00:17,792
+In this retrospective today, I've got list of 10 improvements I'd like you guys to address for the next sprints
+
+4
+00:00:17,825 --> 00:00:23,792
+Hey Khara, I'm gonna need you guys to get more work in progress, it's pretty good but you gonna need more stuff than that
+
+5
+00:00:23,825 --> 00:00:23,891
+Ok
+
+6
+00:00:23,924 --> 00:00:26,000
+Cool, thanks!
+
+7
+00:00:26,033 --> 00:00:29,594
+Awesome, guys! That's our fastest standing up yet, it was only 40 minutes
+
+8
+00:00:29,627 --> 00:00:30,066
+Yeah
+
+9
+00:00:30,099 --> 00:00:30,957
+The point is not getting...
+
+10
+00:00:31,825 --> 00:00:36,198
+I was just reading this and it says Scrum is all that going faster, what's taking you so long?
+
+11
+00:00:36,231 --> 00:00:38,264
+Get back to work...
+
+12
+00:00:38,297 --> 00:00:40,924
+There is no way this story is a 13, this is more like a 2.
+
+13
+00:00:40,957 --> 00:00:45,660
+Alright, so we'll kick off this retrospective with 5 minutes silent writing
+
+14
+00:00:49,891 --> 00:00:50,693
+Silent writing
+
+15
+00:00:50,825 --> 00:00:51,825
+That's not an impediment
+
+16
+00:00:51,858 --> 00:00:55,726
+As your ScrumMaster and product owner, these are the stories I need you to commit this sprint
+
+17
+00:00:59,066 --> 00:01:03,231
+My computer was stolen during a break in last night, I can't get any work done until I get a new one
+
+18
+00:01:03,264 --> 00:01:04,726
+Have you heard of paper?
+
+19
+00:01:04,759 --> 00:01:08,495
+Adam, I'm gonna need this feature demo this afternoon, you can get it done right?
+
+20
+00:01:08,528 --> 00:01:09,528
+Yeah, no problem
+
+21
+00:01:09,528 --> 00:01:09,660
+Great
+
+22
+00:01:09,693 --> 00:01:10,594
+I'm just gonna add this to your work in progress
+
+23
+00:01:10,627 --> 00:01:14,825
+Continuous integrations never helps anybody,let's skip that
+
+24
+00:01:14,858 --> 00:01:19,792
+Oh no Chris, listen, we're doing Scrum now, so we don't have to share that sort of stuff to the management
+
+25
+00:01:19,825 --> 00:01:25,132
+3 months and management think we can get it done in another sprint, and I just don't understand...
+
+26
+00:01:25,165 --> 00:01:32,396
+Hey guys, surprise! our CEO is joining us for today's retrospective, but just do everything normally...
+
+27
+00:01:32,429 --> 00:01:36,891
+Hey guys, you are totally failing, so I am gonna cut this sprint a couple of days short
+
+28
+00:01:36,924 --> 00:01:38,726
+Where are you going?
+
+29
+00:01:38,759 --> 00:01:39,924
+Bio?
+
+30
+00:01:39,957 --> 00:01:41,792
+Do you have a task for that?
+
+31
+00:01:41,825 --> 00:01:42,099
+No
+
+32
+00:01:43,495 --> 00:01:47,363
+Alright guys, you guys are letting our company down this sprint
+
+33
+00:01:47,396 --> 00:01:53,099
+I was just thinking you guys have a lot to do this sprint so let's make this sprint 3 weeks instead of 2, let's just change that
+
+34
+00:01:53,099 --> 00:01:53,165
+Cool
+
+35
+00:01:57,000 --> 00:01:57,726
+Disagree or commit?
+
+36
+00:01:57,759 --> 00:01:58,660
+That's not an impediment
+
+37
+00:01:58,693 --> 00:02:00,660
+So we call this story done?
+
+38
+00:02:04,000 --> 00:02:05,264
+That's close enough, you guys have it
+
+39
+00:02:05,297 --> 00:02:10,495
+You guys are doing great this sprint but the other team's velocity is a little bit higher, could you pick it up just a little bit?
+
+40
+00:02:10,528 --> 00:02:11,759
+5 minutes of silent writing
+
+41
+00:02:18,891 --> 00:02:28,825
+Hey, no it is a fine time, I'm just doing a retrospective, a job at Google? Yeah
+
+42
+00:02:28,858 --> 00:02:35,924
+I'm not gonna be here tomorrow, so if you guys can just do your daily Scrum by email just at whatever time you like, just shoot out email
+
+43
+00:02:36,000 --> 00:02:37,429
+That's not an impediment
+
+44
+00:02:37,462 --> 00:02:42,726
+It's great, the other team's velocity is much better than yours, I mean could you guys work late tonight?
+
+45
+00:02:49,495 --> 00:02:55,330
+Check it out, the cats are eating a cheeseburger, it can't be healthy at all
+

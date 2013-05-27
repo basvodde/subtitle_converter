@@ -1,0 +1,154 @@
+$FontName			=	Arial
+$FontSize				=	30
+$HorzAlign			=	Center		//	Left or Right
+$VertAlign			=	Bottom		//	Top or Center
+$Bold				=	TRUE
+$UnderLined			=	FALSE
+$Italic				=	FALSE
+$XOffset				= 	0 // Pixel offset (can be negative)
+$YOffset				=	0 // Pixel offset (can be negative)
+$TextContrast			=	10
+$Outline1Contrast		=	15
+$Outline2Contrast		=	7
+$BackgroundContrast	=	0
+$ForceDisplay			=	TRUE // DVD Force Display Flag
+$FadeIn				=	0 // In number of Frames
+$Fadeout				=	0 // In number of Frames
+
+$TapeOffset			=	TRUE
+
+00:00:03:15	,	00:00:05:26	,	Tonight, The Deep Dive.
+00:00:05:27	,	00:00:10:01	,	One company's secret weapon for innovation
+00:00:22:28	,	00:00:26:12	,	We went to IDEO, the product design folk
+00:00:26:13	,	00:00:30:08 	,	and said take something old and familiar like, say, the shopping cart
+00:00:30:09	,	00:00:34:10	,	and completely redesign it for us in just 5 days
+00:00:34:11	,	00:00:39:28	,	ABC News correspondent Jack Smith tells us what happened next
+00:00:41:00	,	00:00:45:03	,	9 in the morning, day one and these people have a deadline to meet
+00:00:45:05	,	00:00:49:15	, 	So welcome to the kickoff of the shopping cart project
+00:00:49:17	,	00:00:52:29	,	This is Palo Alto, California, in the heart of Silicon Valley
+00:00:53:00 	,	00:00:55:17	,	and these are designers at IDEO
+00:00:55:18	,	00:00:59:12	,	probably the most influential product development firm in the world
+00:00:59:13 	,	00:01:03:16	,	IDEO has designed everything from high tech medical equipment
+00:01:03:17	,	00:01:06:25	, 	to the 25-foot mechanical whale in the movie, free Willy
+00:01:06:26	,	00:01:10:02	,	and the first computer mouse for Apple, Smith ski goggles,
+00:01:10:03	,	00:01:15:18	,	Nike sunglasses, NEC computer screens, hundreds of products we take for granted
+00:01:15:20	,	00:01:21:09	,	The point is that we are not actually experts at any given area
+00:01:21:10 	,	00:01:24:13	,	We are kind of experts on the process of how you design stuff
+00:01:24:14	,	00:01:26:10	,	So we don't care if you give us a toothbrush
+00:01:26:11    	,	00:01:27:20	,	a toothpaste tube
+00:01:27:21	,	00:01:29:15	,	a tractor, a space shuttle
+00:01:29:16	,	00:01:31:02	,	you know, a chair
+00:01:31:03	,	00:01:32:05	,	It's all the same to us
+00:01:32:06	,	00:01:37:08	,	We like want to figure out how to innovate and by using our process applying it
+00:01:37:09 	, 	00:01:41:06	,	Project leader is Peter Skillman, a 35 year old Stanford engineer
+00:01:41:07	,	00:01:45:11	,	project leader because he's good with groups,not because of seniority
+00:01:45:12	,	00:01:47:08	,	He's only been at IDEO for 6 years.
+00:01:47:09	,	00:01:50:25	,	The rest of the team is electric, but that's typical here
+00:01:50:26	,	00:01:53:01	,	Whitney Mortimer, Harvard MBA
+00:01:53:02	,	00:01:55:05	,	Peter Coughlan, linguist
+00:01:55:06	,	00:01:58:06	,	Tom Kelly, Dave's brother, marketing expert
+00:01:58:07	,	00:02:00:18	,	Jane Fulton-Suri, psychologist
+00:02:00:19	,	00:02:06:14	,	Alex Kazaks,26, a biology major who's turned down medical school 3 times
+00:02:06:15	,	00:02:08:25	,	because he's having too much fun at IDEO
+00:02:08:27	,	00:02:11:28	,	Safety emerges early as an important issue
+00:02:11:29	,	00:02:17:22	,	22 thousand child injuries a year, which is-- so they're hospitalized injuries.
+00:02:17:23	,	00:02:19:08	,	I mean there are many others
+00:02:19:09	,	00:02:22:25	,	And theft. It turns out a lot of carts are stolen
+00:02:22:26	,	00:02:27:18	,	As the team works, it becomes clear there are no titles here, no permanent assignments
+00:02:27:19	,	00:02:31:13	,	And the other side says, give us a lot of help, be safe
+00:02:32:29	,	00:02:36:11	,	I'll give you a big red ball on a post
+00:02:36:12	,	00:02:37:13	,	and that says you're a big guy
+00:02:37:14	,	00:02:39:17	,	If you've got a ball you're a senior vice president
+00:02:39:18	,	00:02:40:29	,	you know, what do I care?
+00:02:41:00	,	00:02:42:22	,	Or the desk, red ball, it's all the same
+00:02:42:24	,	00:02:48:02	,	In a very innovative culture you can't have a kind of hierarchy of
+00:02:48:03	,	00:02:50:18	,	here's the boss and the next person down and the next person down
+00:02:50:19	,	00:02:53:08	,	and the next person down because it's impossible that
+00:02:53:09	,	00:02:57:04	,	the boss is the one who's had the insightful experience with shopping carts.
+00:02:57:05	,	00:02:58:00	,	It's just not possible
+00:02:58:01	,	00:03:02:17	,	The team spreads into groups to find out firsthand what the people who use
+00:03:02:18	,	00:03:04:29	,	make and repair shopping carts really think
+00:03:05:00	,	00:03:06:17	,	Ok, go
+00:03:06:18	,	00:03:08:13	,	The problem with plastic cart is the wind catches it and
+00:03:08:14 	,	00:03:11:22	,	these things have been clocked at 35 across the parking lot
+00:03:11:23	,	00:03:14:25	,	Oh,man, that's actually a pretty good point.
+00:03:14:26	,	00:03:20:01	,	The trick is to find these real experts so that you can learn much more quickly than you
+00:03:20:02	,	00:03:22:12	,	could by just kind of doing it in the normal way
+00:03:22:13	,	00:03:24:06	,	and trying to learn about it yourself
+00:03:24:07	,	00:03:26:24	,	From everything I read these things aren't that safe either
+00:03:26:25	,	00:03:32:07	,	you know, so probably the seat itself is going to have to be redesigned
+00:03:32:08	,	00:03:36:16	,	One of the interesting things for me is looking at how people really don't like to let go of the cart
+00:03:36:17	,	00:03:38:04	,	except for the professional shopper
+00:03:38:05	,	00:03:41:05	,	whose strategy is to leave the cart at various places
+00:03:41:06	,	00:03:44:21	,	Three thirty in the afternoon and the group is back at IDEO
+00:03:44:22	,	00:03:46:15	,	There is no let up
+00:03:46:16	,	00:03:52:10	,	Each team is going to demonstrate and communicate and share everything that they've learned today
+00:03:52:11	,	00:03:58:07	,	A shopping cart has been clocked at 35 miles an hour traveling through a parking lot in the wind
+00:03:58:08	,	00:03:59:06	,	We were in the store, what
+00:03:59:07	,	00:04:03:17	,	two hours and it was truly frightening just to see the kind of stuff going on
+00:04:03:18	,	00:04:08:03	,	You ought to designate some people to make damn sure that the store owner's point of view is represented
+00:04:08:04	,	00:04:12:20	,	After nine straight hours, the team is tired. They call it a day
+00:04:12:21	,	00:04:15:00	,	Is everybody cool?
+00:04:15:01	,	00:04:17:11	,	Well, that's great. Thanks a lot. And we had a great time today
+00:04:17:13	,	00:04:24:02	,	IDEO's mantra for innovation is written everywhere
+00:04:24:03	,	00:04:29:08	,	one conversation at a time, stay focused, encourage wild ideas
+00:04:29:09	,	00:04:32:10	,	defer judgement, build on the ideas of others
+00:04:32:11	,	00:04:39:19	,	That's hardest thing for people to do is to restrain themselves from criticizing an idea
+00:04:39:20	,	00:04:42:05	,	So if anybody starts to nail an idea, they get the bell
+00:04:42:06	,	00:04:47:03	,	The ideas pour out and are posted on the walls
+00:04:47:04	,	00:04:49:09	,	Oh, the blind, the privacy blind
+00:04:49:10	,	00:04:52:14	,	Like when you're buying 6 cases of condoms and you don't want them to see
+00:04:52:15	,	00:04:55:04	,	If it doesn't nest, we don't have a solution
+00:04:55:05	,	00:05:00:08	,	Organized chaos. It's not organized. What it is is it's focused chaos
+00:05:00:09	,	00:05:05:21	,	Vote with your post, it's not with an idea that's cool, but with an idea that's cool and buildable
+00:05:05:22	,	00:05:11:13	,	If it's too far out there and it can't be build in a day then I don't think we should vote on it
+00:05:11:14	,	00:05:15:25	,	Enlightened trial and error succeeds over the planning of the lone genius
+00:05:15:26	,	00:05:20:02	,	Enlightened trial and error succeeds over the planning of the lone genius
+00:05:20:03	,	00:05:23:25	,	If anything sums up IDEO's approach, that is it
+00:05:23:26	,	00:05:26:14	,	Worried that the team is drifting
+00:05:26:15	,	00:05:32:21	,	what can only be called a group of self-appointed adults under Dave Kelly holds an informal side session
+00:05:32:22	,	00:05:33:21	,	Four, four or five
+00:05:33:22	,	00:05:38:00	,	Four of five teams, and we give each team a need area
+00:05:38:01	,	00:05:44:08	,	It becomes very autocratic for a short period of time in defining what things people are going to work on
+00:05:44:09	,	00:05:47:17	,	If you don't work under time constraints you could never get anything done
+00:05:47:18	,	00:05:49:23	,	because it's a messy process that can go on forever
+00:05:49:24	,	00:05:53:20	,	Back at the shop it is 6 o'clock
+00:05:53:21	,	00:05:55:24	,	The four mockups are ready for showing
+00:05:55:25	,	00:06:01:05	,	Baskets also can be, if you think you will have more volume, baskets can be put in
+00:06:01:06	,	00:06:04:17	,	A modular shopping cart you pile hard baskets onto
+00:06:04:18	,	00:06:08:19	,	A high tech cart that gets you through the traffic jam at check out
+00:06:08:20	,	00:06:13:23	,	That you could mount a scanner on the shopping cart so that you as the customer
+00:06:13:24	,	00:06:18:02	,	as you pull it off the shelf, would scan each item
+00:06:18:03	,	00:06:25:14	,	One that's build around child safety and another that lets shoppers talk to supermarket staff remotely
+00:06:25:15	,	00:06:27:15	,	Yeah, where can I find the yogurt?
+00:06:27:16	,	00:06:36:02	,	But the adults again decide more work needs to be done before the mockups can be combined into one last prototype
+00:06:36:03	,	00:06:38:21	,	Why don't we have all the carts come up here for a second?
+00:06:38:22	,	00:06:44:23	,	I think you take a piece of each one of these ideas and kind of back it off a little bit and then put it in the design
+00:06:44:24	,	00:06:47:02	,	The design is still not there
+00:06:47:03	,	00:06:48:29	,	But there's another motto at IDEO
+00:06:49:00	,	00:06:51:19	,	fail often in order to succeed sooner
+00:06:51:20	,	00:06:57:10	,	and some of the team will be up half the night trying to put together a design finally  that does work
+00:06:57:11	,	00:06:59:01	,	Here it is!
+00:07:01:00	,	00:07:05:15	,	So we took the best elements out of each prototype
+00:07:05:16	,	00:07:09:12	,	The cart, which is designed to cost about the same as today's carts
+00:07:09:13	,	00:07:11:23	,	is different in every other way
+00:07:11:24	,	00:07:12:16	,	What do you think?
+00:07:12:17	,	00:07:17:12	,	Well, I'm very proud of the team. I think it's great
+00:07:17:13	,	00:07:18:17	,	This, does this work for you?
+00:07:18:18	,	00:07:20:26	,	It works for me great. It's also beautiful
+00:07:20:27	,	00:07:24:15	,	The cart's wheels turn 90 degrees so it can move sideways
+00:07:24:16	,	00:07:26:27	,	No more lifting up the rear in a tight spot
+00:07:26:28	,	00:07:30:00	,	And you shop in a totally different way
+00:07:30:01	,	00:07:33:08	,	The bags are hung on the hooks on the cart's frame
+00:07:33:09	,	00:07:35:15	,	Remember there is no basket here
+00:07:35:16	,	00:07:38:00	,	At first I was a little shocked
+00:07:38:01	,	00:07:41:03	,	but I think it's you have some fantastic ideas here
+00:07:41:04	,	00:07:44:08	,	It needs a little refining but I think that it's great
+00:07:44:09	,	00:07:45:22	,	I mean we would want them
+00:07:45:23	,	00:07:49:04	,	And she also gave us some really good comments about how we can make this thing better
+00:07:49:06	,	00:07:50:22	,	A lot of hours
+00:07:50:23	,	00:07:56:17	,	Also an open mind, a boss who demands fresh ideas be quirky and clash with his
+00:07:56:18	,	00:08:00:25	,	a belief that chaos can be constructive and teamwork
+00:08:00:26	,	00:08:02:26	,	a great deal of teamwork
+00:08:02:27	,	00:08:07:08	,	And these are the recipe for how innovation takes place
+00:08:07:09	,	00:08:11:24	,	This is Jack Smith for Nightline, Palo Alto, California
