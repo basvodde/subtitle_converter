@@ -8,13 +8,13 @@ describe SubRibWriter do
   ]}
 
   let(:result)  { [
-      "1\n00:00:03,495 --> 00:00:05,858\nTonight, The Deep Dive.\n",
-      "2\n00:00:05,891 --> 00:00:10,033\nOne company's secret weapon for innovation\n"
+      "1\n00:00:03,495 --> 00:00:05,858\nTonight, The Deep Dive.\n\n",
+      "2\n00:00:05,891 --> 00:00:10,033\nOne company's secret weapon for innovation\n\n"
   ]}
 
   let(:expect_file_content)  {
-      "1\n00:00:03,495 --> 00:00:05,858\nTonight, The Deep Dive.\n"+
-      "2\n00:00:05,891 --> 00:00:10,033\nOne company's secret weapon for innovation\n"
+      "1\n00:00:03,495 --> 00:00:05,858\nTonight, The Deep Dive.\n\n"+
+      "2\n00:00:05,891 --> 00:00:10,033\nOne company's secret weapon for innovation\n\n"
   }
   describe "convert_fps_to_millisecond" do
     it "should convert fps to millisec" do
