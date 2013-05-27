@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 class STLReader
   attr_reader :stl_sub_title_lines
   def initialize
@@ -17,7 +19,7 @@ class STLReader
   private
   def parse_srt_content(file)
     @stl_sub_title_lines = file.select{|line|
-      line =~ /\d{2}(:[0-5]\d){3}\t,\t\d{2}(:[0-5]\d){3}\t,\t.*/
+      line =~ /\d{2}(:[0-5]\d){3}\s+,\s+\d{2}(:[0-5]\d){3}\s+,\s+.*/
     }.map{|line|
       line.split("\t,\t").map(&:strip).join("#")
     }
