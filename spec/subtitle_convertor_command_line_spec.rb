@@ -1,6 +1,6 @@
 
-require 'subtitle_convertor_command_line'
-require 'subtitle_convertor'
+require 'subtitle_converter'
+
 
 describe "command line interface for the subtitle convertor" do
   

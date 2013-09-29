@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 class SubRibWriter
   attr_reader :subrib_sub_title_lines
 

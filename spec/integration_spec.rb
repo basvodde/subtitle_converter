@@ -1,5 +1,5 @@
 
-require 'subtitle_convertor'
+require 'subtitle_converter'
 require 'tmpdir'
 
 describe "Trying out different files and output to see if the integration works" do
