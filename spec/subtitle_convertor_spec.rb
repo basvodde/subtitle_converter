@@ -1,6 +1,5 @@
-require 'stl_reader'
-require 'sub_rib_writer'
-require 'subtitle_convertor'
+
+require 'subtitle_converter'
 
 describe "the subtitle convertor" do
   

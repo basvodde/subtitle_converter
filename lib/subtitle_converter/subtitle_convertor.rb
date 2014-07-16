@@ -1,6 +1,4 @@
-
-require 'stl_reader'
-require 'sub_rib_writer'
+# encoding: utf-8
 
 class SubtitleConvertor
   

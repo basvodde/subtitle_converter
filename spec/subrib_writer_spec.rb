@@ -1,5 +1,5 @@
 require	'spec_helper'
-require 'sub_rib_writer'
+require 'subtitle_converter'
 
 describe SubRibWriter do
   let(:subrib_writer) { SubRibWriter.new }

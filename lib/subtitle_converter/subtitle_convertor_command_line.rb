@@ -1,5 +1,4 @@
-
-require 'subtitle_convertor'
+# encoding: utf-8
 
 module SubtitleConvertorCommandLine
   
