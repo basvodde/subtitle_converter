@@ -10,3 +10,8 @@ http://documentation.apple.com/en/dvdstudiopro/usermanual/index.html#chapter=19%
 
 SRT file format:
 http://wiki.videolan.org/SubRip
+
+
+*** Installation
+
+gem install subtitle_converter

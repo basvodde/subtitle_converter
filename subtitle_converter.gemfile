@@ -15,8 +15,8 @@ Gem::Specification.new do |gem|
   gem.email    = ['roof@odd-e.com', 'basv@odd-e.com']
   gem.homepage = 'https://github.com/basvodde/subtitle_converter'
 
-  gem.add_dependency('rake')
-  gem.add_development_dependency('rspec', [">= 2.0.0"])
+  gem.add_dependency('rake', '~> 0')
+  gem.add_development_dependency('rspec', '~> 2.0', '>= 2.0.0')
 
   gem.files = `git ls-files -- {.,test,spec,lib}/*`.split("\n")
 end
