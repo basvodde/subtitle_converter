@@ -1,4 +1,3 @@
-require	'spec_helper'
 require 'subtitle_converter'
 
 describe SubRibWriter do
@@ -43,7 +42,7 @@ describe SubRibWriter do
 
   describe "write_to_file" do
     it "should create file 'subrib_subtitle.srt' all data in subrib_sub_title_lines in" do
-      file = mock("filename")
+      file = double("filename")
       File.should_receive(:open).with("filename", "w").and_yield(file)
       file.should_receive(:puts).at_least(:twice)
 

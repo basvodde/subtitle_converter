@@ -1,0 +1,22 @@
+# encoding: utf-8
+require File.expand_path('../lib/subtitle_converter/version', __FILE__)
+
+Gem::Specification.new do |gem|
+  gem.name    = 'subtitle_converter'
+  gem.version = SubtitleConverterVersion::VERSION
+  gem.date    = Date.today.to_s
+  gem.executables = [ "subtitle_converter" ]
+  gem.license = 'MIT'
+
+  gem.summary = "Converting subtitles to different formats"
+  gem.description = "Convert video subtitles from one to another format. Currently only STL and SRT"
+
+  gem.authors  = ['Twin Panichsombat', 'Bas Vodde']
+  gem.email    = ['roof@odd-e.com', 'basv@odd-e.com']
+  gem.homepage = 'https://github.com/basvodde/subtitle_converter'
+
+  gem.add_dependency('rake')
+  gem.add_development_dependency('rspec', [">= 2.0.0"])
+
+  gem.files = `git ls-files -- {.,test,spec,lib}/*`.split("\n")
+end

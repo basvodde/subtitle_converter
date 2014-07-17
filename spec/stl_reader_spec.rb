@@ -1,5 +1,4 @@
 
-require	'spec_helper'
 require 'subtitle_converter'
 
 describe STLReader do
