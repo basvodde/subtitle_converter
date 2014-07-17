@@ -24,7 +24,7 @@ class SubRibWriter
   end
 
   def to_file(filename)
-    file = File.open filename, "w" do |file|
+    File.open filename, "w" do |file|
       subrib_sub_title_lines.each do |line|
         file.puts line
       end
