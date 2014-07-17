@@ -24,10 +24,6 @@ class SubRibWriter
   end
 
   def to_file(filename)
-    File.open filename, "w" do |file|
-      subrib_sub_title_lines.each do |line|
-        file.puts line
-      end
-    end
+    File.write(filename, subrib_sub_title_lines.join)
   end
 end

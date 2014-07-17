@@ -15,12 +15,10 @@ class STLReader
 
   def parse_stl_content(content)
 
-    @stl_sub_title_lines = content.lines.select { |line|
-      line =~ /\d{2}(:[0-5]\d){3}\s+,\s+\d{2}(:[0-5]\d){3}\s+,\s+.*/
-    }.map { |line|
-      line.gsub!(", \t", ",\t")
-      line.gsub!("\t ,", "\t,")
-      line.split("\t,\t").map(&:strip).join("#")
+    @stl_sub_title_lines = content.lines.collect { |line|
+      matchdata = line.match(/(\d{2}(?::[0-5]\d){3})\s+,\s+(\d{2}(?::[0-5]\d){3})\s+,\s+(.*)/)
+      matchdata.nil? ? nil : matchdata[1] + "#" + matchdata[2] + "#" + matchdata[3]
     }
+    @stl_sub_title_lines.compact!
   end
 end

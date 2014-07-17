@@ -43,8 +43,7 @@ describe SubRibWriter do
   describe "write_to_file" do
     it "should create file 'subrib_subtitle.srt' all data in subrib_sub_title_lines in" do
       file = double("filename")
-      File.should_receive(:open).with("filename", "w").and_yield(file)
-      file.should_receive(:puts).at_least(:twice)
+      File.should_receive(:write).with("filename", /.*/)
 
       subrib_writer.parse_stl_lines(stl_sub_title_lines)
       subrib_writer.to_file("filename")
